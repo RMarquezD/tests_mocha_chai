@@ -1,4 +1,10 @@
+#files
+
 .classpath
 .settings
 .project
 .idea
+
+#folders
+
+node_modules
