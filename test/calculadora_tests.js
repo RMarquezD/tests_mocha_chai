@@ -1,6 +1,6 @@
 var assert   = require('assert');
 var expect    = require("chai").expect;
-var calculadora = require("../app/calculadora");
+var calculadora = require("../app/calculator");
 
 describe("Calculadora tests", function() {
 	
