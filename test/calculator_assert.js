@@ -1,7 +1,7 @@
 var assert   = require('assert');
 var calculator = require("../app/calculator");
 
-describe("Calcultator tests using ASSERT interface from CHAI module", function() {	
+describe("Calcultator tests using ASSERT module", function() {	
 	describe("Check Sum Function using chai methods", function() {
 			it("Add 2 to an intenger", function() {
 				var result   = calculator.sum(2);
