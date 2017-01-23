@@ -1,13 +1,13 @@
-exports.suma = function(valor) {
+exports.sum = function(value) {
 	
-  var resultado = valor + 2;
-  return resultado;
+  var result = value + 2;
+  return result;
   
 };
 
-exports.multiplica = function(valor) {
+exports.multiply = function(value) {
 	
-  var resultado = valor * 2;
-  return resultado;
+  var result = value * 2;
+  return result;
 
 };
