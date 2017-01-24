@@ -37,10 +37,11 @@ Chai has several interfaces that allow the developer to choose the most comforta
 ># Install project Dependences:  
 >> `npm install`  
 
-># Execute Tests:   
->> Using npm:  
+># Execute Tests:  
+
+>># Using npm:  
 >> `npm test`  
 
-># Using Mocha:  
+>># Using Mocha:  
 >> To execute all tests. From proyect path `mocha`  
 >> To execute a test file. `mocha testfile.js`
