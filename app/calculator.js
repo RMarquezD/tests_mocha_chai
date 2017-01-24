@@ -5,9 +5,9 @@ exports.sum = function(value) {
   
 };
 
-exports.multiply = function(value) {
+exports.addTested = function(value) {
 	
-  var result = value * 2;
+  var result = value + " tested";
   return result;
 
 };
