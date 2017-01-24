@@ -1,3 +1,5 @@
+It's a npm project created to check the basic utilities of Chaijs module to create Unit Tests in a project developed in NodeJS
+
 # CHAI:
 Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.  
 Chaijs page: http://chaijs.com/ 
