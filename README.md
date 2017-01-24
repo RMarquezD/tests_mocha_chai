@@ -28,3 +28,19 @@ Chai has several interfaces that allow the developer to choose the most comforta
 >>assert.lengthOf(foo, 3)  
 >>assert.property(tea, 'flavors');  
 >>assert.lengthOf(tea.flavors, 3);  
+
+# HOW TO START:   
+
+># Clone the repository:  
+>> `git clone https://github.com/RMarquezD/tests_mocha_cha`  
+
+># Install project Dependences:  
+>> `npm install`  
+
+># Execute Tests:   
+>> Using npm:  
+>> `npm test`  
+
+># Using Mocha:  
+>> To execute all tests. From proyect path `mocha`  
+>> To execute a test file. `mocha testfile.js`
