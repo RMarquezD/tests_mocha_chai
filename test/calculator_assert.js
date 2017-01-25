@@ -14,28 +14,28 @@ describe("Calcultator tests using ASSERT module", function() {
     });
     afterEach(function() {
 	   // runs after each test in this block
-	   result = null  
+	   result = null;  
 	 });
-	describe("Check Sum Function", function() {
-			it("Check the returned value using: assert.equal(value, value)", function() {
+	describe("Check Sum Function: ", function() {
+			it("Check the returned value using: assert.equal(value, value): ", function() {
 				result   = calculator.sum(2);
 				assert.equal(result, 4);
 			});
-			it("Check the returned value using: assert(typeof(value, 'value'))", function() {
+			it("Check the returned value using: assert(typeof(value, 'value')): ", function() {
 				result   = calculator.sum(2);
-				assert(typeof(result, "number"));
+				assert(typeof(result), "number");
 			});
 	});		
-	describe("Check addTested Function", function() {
-		it("Check the returned value using: assert.equal(value, value)", function() {
+	describe("Check addTested Function: ", function() {
+		it("Check the returned value using: assert.equal(value, value): ", function() {
 			result   = calculator.addTested("text");
 			assert.equal(result, "text tested");
 		});
-		it("Check the returned value using: assert(typeof(value, 'value'))", function() {
-			esult   = calculator.addTested("text");
-			assert(typeof(result, "string"));
+		it("Check the returned value using: assert(typeof(value, 'value')): ", function() {
+			result   = calculator.addTested("text");
+			assert.equal(typeof(result), "string");
 		});
-		it("Check the returned value using: assert.equal(value, value)", function() {
+		it("Check the returned value using: assert.equal(value, value): ", function() {
 			result   = calculator.addTested("text");
 			assert.equal(result.length, 11);
 		});
